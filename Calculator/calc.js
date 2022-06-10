@@ -21,6 +21,7 @@ btns.forEach((node) => {
             $screen.innerText = " "
             return true
         }
+        
         $screen.append(value)
     })
 })
